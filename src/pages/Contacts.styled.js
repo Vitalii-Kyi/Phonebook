@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import contactsImage from '../images/contacts.jpg';
+// import contactsImage from '../images/contacts.jpg';
 
 export const ContactsGlobalStyle = createGlobalStyle`
 body{
-   background-image: url(${contactsImage});
+   background-color: #79ff9a;
 }`;

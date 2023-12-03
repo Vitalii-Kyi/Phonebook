@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
-import LoginImage from '../images/login.jpg';
+// import LoginImage from '../images/login.jpg';
 
 export const LoginGlobalStyle = createGlobalStyle`
   body{
-    background-image: url(${LoginImage});
+    background-color: #e9dc94;
   }
 `;
