@@ -47,12 +47,17 @@ export const Box = styled.div`
   text-align: center;
 
   h1,
-  h2 {
+  h2,
+  h3 {
+    color: blue;
+    /*border: 1px outset blue;*/
+    /*background-color: yellow;*/
     max-width: max-content;
+    /*border-radius: 8px;*/
     padding-left: 8px;
     padding-right: 8px;
     margin: auto;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   b {
