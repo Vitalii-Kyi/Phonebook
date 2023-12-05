@@ -1,12 +1,11 @@
 import { Form } from 'formik';
 import { Link } from 'react-router-dom';
 import { createGlobalStyle, styled } from 'styled-components';
-// import editImage from '../images/contact_edit.jpg';
 
 export const ContactEditStyle = createGlobalStyle`
 body{
 
-    background-color: #cfc89a;
+    background-color: #e8e8e8;
 }
 `;
 
@@ -57,7 +56,6 @@ export const FormThumb = styled(Form)`
       border-radius: 13px;
       outline: none;
       text-align: center;
-      /* background-color: rgba(255, 255, 255, 0); */
     }
   }
 `;

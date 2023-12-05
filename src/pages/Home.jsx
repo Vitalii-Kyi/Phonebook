@@ -3,7 +3,8 @@ import Register from './Register';
 import { useAuth } from 'hooks';
 import { Box } from 'components/GlobalStyle';
 import { HomeGlobalStyle } from './Home.styled';
-import { GiOldMicrophone } from 'react-icons/gi';
+import { HIPhoneOutline } from '@icongo/hi/lib/HIPhoneOutline';
+// import { GiOldMicrophone } from 'react-icons/gi';
 export default function Home() {
   const { isLoggedIn } = useAuth();
 
@@ -19,7 +20,7 @@ export default function Home() {
           <b
             style={{
               display: 'inline-block',
-              fontSize: 22,
+              fontSize: 20,
               marginBottom: '12px',
               textTransform: 'uppercase',
             }}
@@ -28,7 +29,7 @@ export default function Home() {
           </b>
           <h2 style={{ fontSize: 44 }}>Phonebook Organizer</h2>
 
-          <GiOldMicrophone />
+          <HIPhoneOutline />
           <HomeGlobalStyle />
         </Box>
       )}

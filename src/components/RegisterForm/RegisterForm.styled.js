@@ -5,49 +5,58 @@ export const FormThumb = styled(Form)`
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-color: rgba(202, 202, 202, 0.8);
-  width: 480px;
+  background-color: #e8e8e8;
+  width: 380px;
   margin: auto;
-  border: 2px outset black;
-  border-radius: 4px;
-  padding: 20px 28px;
-  margin-bottom: 28px;
+  border: 1px solid #e8e8e8;
+  border-radius: 1em;
+  padding: 1em 3.2em;
+  margin-bottom: 1em;
+  text-align: center;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 6px #ffffff;
 
   button {
     font-weight: bold;
-    margin-bottom: 28px;
-    padding: 4px 8px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    background-color: rgba(144, 144, 144, 0.8);
+    margin-top: 1em;
+    margin-bottom: 1.6em;
+    padding: 0.3em 1em;
+    border-radius: 1em;
+    color: #5a5a5a;
+    background: #e8e8e8;
+    border: 2px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
   }
 
   button:hover,
   button:focus {
-    background-color: black;
-    color: white;
+    border: 2px solid #77c063;
+    color: #090909;
   }
 
   label {
     font-style: oblique;
     font-weight: 500;
-    margin-bottom: 12px;
+    color: #5a5a5a;
+    margin-bottom: 0.7em;
 
     b {
       font-size: 13px;
       font-style: normal;
       font-weight: 500;
-      color: red;
+      color: #ff0000;
       text-transform: lowercase;
     }
 
     input {
       margin-top: 8px;
       width: 100%;
-      padding: 2px 12px;
-      border-radius: 4px;
+      padding: 6px 12px;
+      border: 1px solid #e8e8e8;
+      border-radius: 1em;
       outline: none;
       text-align: center;
+      box-shadow: inset 4px 4px 6px #c5c5c5, inset -4px -4px 6px #ffffff;
     }
   }
 `;

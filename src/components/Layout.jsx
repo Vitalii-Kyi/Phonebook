@@ -11,8 +11,8 @@ export default function Layout() {
         fallback={
           <LoadingSpinnerComponent
             type={'Gear'}
-            color={'black'}
-            size={'220px'}
+            color={'#74ee15'}
+            size={'100px'}
           />
         }
       >

@@ -40,20 +40,18 @@ export const Box = styled.div`
   margin: 24px auto;
   padding: 36px;
   width: 480px;
-  height: fit-content;
-  border: 1px solid #bcbcbc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
   text-align: center;
+  height: fit-content;
+  border: 1px solid #f8f8f8;
+  border-radius: 24px;
+  background-color: #f8f8f8;
+  box-shadow: 2px 2px 6px #c5c5c5, -2px -2px 6px #ffffff;
 
   h1,
   h2,
   h3 {
-    color: blue;
-    /*border: 1px outset blue;*/
-    /*background-color: yellow;*/
+    color: #008000;
     max-width: max-content;
-    /*border-radius: 8px;*/
     padding-left: 8px;
     padding-right: 8px;
     margin: auto;
@@ -61,7 +59,7 @@ export const Box = styled.div`
   }
 
   b {
-    color: #000000;
+    color: #090909;
     font-size: 15px;
   }
 `;

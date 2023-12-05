@@ -7,25 +7,28 @@ export const AuthBox = styled.div`
 `;
 
 export const AuthLink = styled(NavLink)`
-  gap: 12px;
-  font-weight: bold;
-  padding: 4px 8px;
+  color: #090909;
+  padding: 0.3em 1em;
+  font-size: 15px;
   text-decoration: none;
-  border: 1px outset #000000;
-  border-radius: 4px;
-  text-transform: uppercase;
-  background-color: green;
-  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 1em;
+  background: #e8e8e8;
+  border: 2px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 
   &:visited {
-    color: black;
+    color: #5a5a5a;
   }
 
-  &.active,
-  &:hover,
+  &:hover {
+    border: 2px solid #77c063;
+  }
+  &.active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+
   &:focus {
-    background-color: black;
-    color: white;
-    transform: scale(1.1);
+    border: 2px solid white;
   }
 `;

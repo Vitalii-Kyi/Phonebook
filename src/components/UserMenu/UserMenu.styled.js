@@ -6,18 +6,19 @@ export const Wrapper = styled.div`
   gap: 12px;
 
   button {
-    font-weight: bold;
-    padding: 4px 8px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    background-color: rgba(144, 144, 144, 0.8);
-    transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 
     &:hover,
     &:focus {
-      background-color: black;
-      color: white;
-      transform: scale(1.1);
+      border: 1px solid #ffffff;
+      box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
     }
   }
 

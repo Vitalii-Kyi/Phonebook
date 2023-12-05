@@ -1,9 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
-// import HomeImage from '../images/home.jpg';
 
 export const HomeGlobalStyle = createGlobalStyle`
   body{
-  background-color: #79deff;
+  background-color: #e8e8e8;
   }
 
   svg{
