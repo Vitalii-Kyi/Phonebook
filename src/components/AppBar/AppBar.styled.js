@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const AppHeader = styled.header`
-  width: 480px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;

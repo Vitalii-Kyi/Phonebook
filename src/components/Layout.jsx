@@ -10,8 +10,8 @@ export default function Layout() {
       <Suspense
         fallback={
           <LoadingSpinnerComponent
-            type={'Gear'}
-            color={'#74ee15'}
+            type={'Rolling'}
+            color={'#ff8247'}
             size={'100px'}
           />
         }

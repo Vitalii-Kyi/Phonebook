@@ -3,25 +3,26 @@ import { styled } from 'styled-components';
 
 export const ListItem = styled.div`
   display: flex;
+  padding: 6px 12px;
   align-items: center;
-  color: black;
-  border: 1px outset blue;
-  padding: 2px;
-  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  border-radius: 1em;
   cursor: pointer;
-  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: inset 4px 4px 6px #c5c5c5, inset -4px -4px 6px #ffffff;
 
   &:hover {
-    transform: scale(1.1);
+    border: 1px solid #77c063;
+    color: #090909;
   }
 `;
 
 export const ListItemLink = styled(Link)`
   display: flex;
   width: 100%;
+
   color: #000000;
   text-decoration: none;
-
+  padding: 4px 0;
   &:visited {
     color: #000000;
   }
@@ -34,17 +35,18 @@ export const ListItemLink = styled(Link)`
 
     span {
       display: inline-block;
-      font-size: 18px;
-      font-weight: 700;
+      font-size: 16px;
+      font-weight: 500;
       margin-left: 12px;
       /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;*/
       margin-right: auto;
+      color: #090909;
     }
 
     b {
-      margin-right: 48px;
-      color: red;
+      margin-right: 22px;
+      color: #090909;
     }
   }
 `;
@@ -54,15 +56,18 @@ export const DelBtnItem = styled.button`
   font-size: 13px;
   /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;*/
-  padding: 2px 8px;
-  color: #ffffff;
-  background-color: #000000;
-  border-radius: 4px;
-  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: #090909;
+  padding: 0.1em 0.7em;
+  text-decoration: none;
+  border-radius: 1em;
+  background: #e8e8e8;
+  border: 2px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 
   &:hover {
-    background-color: transparent;
-    color: red;
-    transform: scale(1.2);
+    color: #ff0000;
+    border: 1px solid #ffffff;
   }
 `;

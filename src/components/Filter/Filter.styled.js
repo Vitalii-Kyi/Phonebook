@@ -6,8 +6,8 @@ export const Search = styled.div`
     margin-bottom: 24px;
     width: 320px;
     padding: 2px 12px;
-    border: 1px solid #bcbcbc;
-    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    border-radius: 1em;
     text-align: center;
     outline: none;
   }

@@ -21,11 +21,12 @@ export const AuthLink = styled(NavLink)`
     color: #5a5a5a;
   }
 
-  &:hover {
-    border: 2px solid #77c063;
-  }
   &.active {
     box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+
+  &:hover {
+    border: 2px solid #77c063;
   }
 
   &:focus {

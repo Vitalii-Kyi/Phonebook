@@ -4,7 +4,6 @@ import { useAuth } from 'hooks';
 import { Box } from 'components/GlobalStyle';
 import { HomeGlobalStyle } from './Home.styled';
 import { HIPhoneOutline } from '@icongo/hi/lib/HIPhoneOutline';
-// import { GiOldMicrophone } from 'react-icons/gi';
 export default function Home() {
   const { isLoggedIn } = useAuth();
 
@@ -16,18 +15,18 @@ export default function Home() {
         <Register />
       ) : (
         <Box>
-          <h1 style={{ fontSize: 44 }}>WELCOME !!!</h1>
+          <h1 style={{ fontSize: 36 }}>Welcome !!!</h1>
           <b
             style={{
               display: 'inline-block',
-              fontSize: 20,
+              fontSize: 24,
               marginBottom: '12px',
-              textTransform: 'uppercase',
+              textTransform: 'none',
             }}
           >
             It's your
           </b>
-          <h2 style={{ fontSize: 44 }}>Phonebook Organizer</h2>
+          <h2 style={{ fontSize: 32 }}>Phonebook Organizer</h2>
 
           <HIPhoneOutline />
           <HomeGlobalStyle />

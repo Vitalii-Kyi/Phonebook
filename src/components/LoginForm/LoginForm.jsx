@@ -20,13 +20,12 @@ export const LoginForm = () => {
       validationSchema={formSchema}
       onSubmit={(values, actions) => {
         dispatch(logIn({ ...values }));
-        // actions.resetForm();
       }}
     >
       <FormThumb autoComplete="off">
         <label>
           Email
-          <Field type="email" name="email" placeholder="Enter your name" />
+          <Field type="email" name="email" placeholder="Enter your email" />
           <ErrorMessage name="name" component="b" />
         </label>
         <label>

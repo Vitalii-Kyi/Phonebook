@@ -45,7 +45,7 @@ export const Box = styled.div`
   border: 1px solid #f8f8f8;
   border-radius: 24px;
   background-color: #f8f8f8;
-  box-shadow: 2px 2px 6px #c5c5c5, -2px -2px 6px #ffffff;
+  /*box-shadow: 2px 2px 6px #c5c5c5, -2px -2px 6px #ffffff;*/
 
   h1,
   h2,

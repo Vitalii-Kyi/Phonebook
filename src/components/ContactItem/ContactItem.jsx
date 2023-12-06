@@ -5,7 +5,6 @@ import { fetchDeleteContact } from 'redux/contacts/operations';
 import { ListItemLink, DelBtnItem, ListItem } from './ContactItem.styled';
 
 export default function ContactItem({ contact }) {
-  // const contacts = useSelector(getContacts);
   const { id, name, number } = contact;
   const dispatch = useDispatch();
   const location = useLocation();
@@ -15,7 +14,7 @@ export default function ContactItem({ contact }) {
   return (
     <ListItem>
       <ListItemLink to={`/contacts/${id}`} state={{ from: location }}>
-        <HIPhoneOutline size={22} />
+        <HIPhoneOutline size={18} />
         <div>
           <span>{name}</span>
           <b>{number} </b>

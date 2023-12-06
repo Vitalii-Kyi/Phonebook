@@ -20,7 +20,7 @@ export default function RegisterForm() {
     <>
       <h2>Registration Form</h2>
       <h5>
-        Have an account already? <Link to="/login">Sign Up</Link> please!
+        Have an account already? <Link to="/login" style={{ color: '#ff5a36' }}>Sign Up</Link> please!
       </h5>
       <Formik
         initialValues={initialValues}

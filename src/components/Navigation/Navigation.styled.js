@@ -6,23 +6,25 @@ export const NavThumb = styled.nav``;
 export const NavigationLink = styled(NavLink)`
   display: inline-block;
   text-decoration: none;
-  padding: 4px;
-  font-weight: 700;
-  color: blue;
-  border: 4px outset blue;
-  background-color: yellow;
-  width: 122px;
-  border-radius: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 0.3em 0.7em;
+  font-size: 14px;
+  font-weight: 500;
+  color: #090909;
+  background: #e8e8e8;
+  border: 2px solid #e8e8e8;
+  border-radius: 1em;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+
+  width: 80px;
+  padding-left: 6px;
+  padding-right: 6px;
   margin-right: 13px;
-  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &.active,
   &:hover,
   &:focus {
-    color: yellow;
-    background-color: blue;
-    transform: scale(1.08);
+    border: 2px solid #77c063;
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
   }
 `;

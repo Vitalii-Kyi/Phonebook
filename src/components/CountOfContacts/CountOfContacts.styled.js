@@ -3,8 +3,8 @@ import { styled } from 'styled-components';
 export const ItemsCount = styled.span`
   display: inline-flex;
   justify-content: space-between;
-  width: 320px;
-  margin-bottom: 16px;
-  font-size: 18px;
-  font-weight: 600;
+  width: 300px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 500;
 `;

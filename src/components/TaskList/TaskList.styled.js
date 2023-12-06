@@ -6,5 +6,5 @@ export const List = styled.ul`
   list-style: none;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 12px;
+  grid-gap: 16px;
 `;

@@ -5,13 +5,14 @@ export const TaskThumb = styled.div`
   align-items: center;
   gap: 8px;
   border: 1px outset grey;
-  padding: 2px;
-  border-radius: 4px;
-  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px;
+  border: 1px solid #e8e8e8;
+  border-radius: 1em;
+  box-shadow: inset 4px 4px 6px #c5c5c5, inset -4px -4px 6px #ffffff;
 
   &:hover {
-    transform: scale(1.08);
-  }
+    border: 1px solid #77c063;
+    color: #ff0000;
 `;
 
 export const Text = styled.b`
@@ -22,19 +23,18 @@ export const Text = styled.b`
 
 export const DelButton = styled.button`
   font-size: 13px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  padding: 4px 8px;
   margin-left: auto;
-  padding: 2px 8px;
-  color: white;
-  background-color: #0000000;
-  border-radius: 4px;
-  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #090909;
+  background-color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 
   &:hover {
-    background-color: transparent;
-    color: grey;
-    transform: scale(1.1);
+    border: 1px solid #77c063;
+    color: #ff0000;
   }
 `;
 
@@ -42,5 +42,6 @@ export const Checkbox = styled.input`
   margin-left: 8px;
   width: 18px;
   height: 18px;
+  border-box: 1px solid #e8e8e8;
   cursor: pointer;
 `;
