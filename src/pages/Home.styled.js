@@ -8,6 +8,6 @@ export const HomeGlobalStyle = createGlobalStyle`
   svg{
     width: 50px;
     height: 50px;
-    /*color: red;*/
+    color: grey;
   }
 `;

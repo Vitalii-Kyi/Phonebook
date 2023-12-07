@@ -21,7 +21,7 @@ const authPersistConfig = {
   whitelist: ['token'],
 };
 
-const tasksPersistConfig = {
+const tastksPersistConfig = {
   key: 'tasks',
   storage,
 };
@@ -31,7 +31,7 @@ export const store = configureStore({
     auth: persistReducer(authPersistConfig, authReducer),
     contacts: contactsReducer,
     filter: filterReducer,
-    tasks: persistReducer(tasksPersistConfig, rootReducer),
+    tasks: persistReducer(tastksPersistConfig, rootReducer),
   },
   devTools: process.env.NODE_ENV === 'development',
   middleware: getDefaultMiddleware =>

@@ -15,14 +15,13 @@ export default function RegisterForm() {
   const dispatch = useDispatch();
 
   const initialValues = { name: '', email: '', password: '' };
-
   return (
     <>
       <h2>Registration Form</h2>
       <h5>
         Have an account already? <Link to="/login" style={{ color: '#ff5a36' }}>Sign Up</Link> please!
       </h5>
-      <Formik
+       <Formik
         initialValues={initialValues}
         validationSchema={formSchema}
         onSubmit={(values, actions) => {
