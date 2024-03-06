@@ -101,15 +101,4 @@ export const GoBackLink = styled(Link)`
   &:focus {
     background-color: rgba(119, 136, 153, 0.2);
   }
-  /* h3 {
-    color: blue;
-    border: 4px outset blue;
-    background-color: yellow;
-    max-width: max-content;
-    border-radius: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: auto;
-    margin-bottom: 28px;
-  } */
 `;
