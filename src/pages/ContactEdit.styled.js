@@ -74,21 +74,25 @@ export const GoBackLink = styled(Link)`
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: blue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: #5a5a5a;
   margin: 22px auto;
-  padding: 10px;
-  width: 780px;
+  padding: 0.3em 1em;
+  width: 276px;
   height: fit-content;
-  border: 4px outset #000;
-  border-radius: 13px;
-  background-color: rgba(119, 136, 153, 0.8);
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.02em;
+  border: 2px solid #e8e8e8;
+  border-radius: 1em;
+  // transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  background-color: #e8e8e8;
+
+  // text-transform: uppercase;
+  // letter-spacing: 1.02em;
 
   &.active {
-    color: blue;
+    color: #5a5a5a;
   }
 
   svg {
@@ -99,6 +103,7 @@ export const GoBackLink = styled(Link)`
 
   &:hover,
   &:focus {
-    background-color: rgba(119, 136, 153, 0.2);
+    border: 1px solid #77c063;
+    color: #090909;
   }
 `;
